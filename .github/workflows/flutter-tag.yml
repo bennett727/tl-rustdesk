@@ -17,5 +17,3 @@ jobs:
       upload-artifact: true
       upload-tag: ${{ github.ref_name }}
 
-permissions:
-  contents: write  # 允许工作流创建发布
